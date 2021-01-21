@@ -1,0 +1,41 @@
+{
+    "HitlistSongs":
+    [
+        {
+            "title": "34+35",
+            "artist": "Ariana Grande",
+            "cover": "https://static.wikia.nocookie.net/arianagrande/images/1/13/Positions_%E2%80%93_Album_Cover.jpg",
+            "votes": 100
+        },
+        {
+            "title": "Anyone",
+            "artist": "Justin Beiber",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/Justin_Bieber_-_Anyone.png",
+            "votes": 99
+        },
+        {
+            "title": "Bakit Papa?",
+            "artist": "Sex Bomb Girls",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/61Nt47L62LL._SY445_SX342_QL70_ML2_.jpg",
+            "votes": 98
+        },
+        {
+            "title": "Vibez",
+            "artist": "ZAYN",
+            "cover": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=tc&w=300&h=300&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F01%2F01%2Fharry-styles.jpg",
+            "votes": 97
+        },
+        {
+            "title": "MY TREASURE",
+            "artist": "TREASURE",
+            "cover": "https://www.songmeaningsandfacts.com/wp-content/uploads/2021/01/MY-TREASURE-by-TREASURE.jpg",
+            "votes": 96
+        },
+        {
+            "title": "willow",
+            "artist": "Taylor Swift",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png",
+            "votes": 95
+        }
+    ]
+}

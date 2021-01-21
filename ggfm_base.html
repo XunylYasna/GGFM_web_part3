@@ -1,0 +1,369 @@
+<html lang="en-US"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  
+    <title>Hitlist – Green Giant FM</title>
+    <link rel="dns-prefetch" href="//use.fontawesome.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Insert Stylesheets Here -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/hitlist.css">
+  
+  </head>
+  
+  <body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+  
+  
+    <style>
+      #mobile-demo a {
+        color: white !important;
+      }
+  
+      #sd {
+        display: block;
+        background: url('http://greengiantfm.com/wp-content/themes/ggfm%20Test/assets/images/logo.png') no-repeat -15px 0;
+        height: 100%;
+        width: auto;
+      }
+  
+      #body-wrapper {
+        min-height: 90vh;
+      }
+  
+      a {
+        color: #579529;
+      }
+        
+      #menu-main-navigation #search:hover{
+      background-color: white;
+        transition: width 1s;
+        width: 200px;
+        color: darkslategray;
+        }
+  
+      #menu-main-navigation #search:focus{
+        background-color: white;
+        transition: width 1s;
+        width: 200px;
+        color: darkslategray;
+  
+      }
+  
+      #menu-main-navigation #search{
+        height: 2.7rem !important;
+        border-radius: 50px;
+        width: 20px;
+        transition: width 1s ease-in-out;
+          padding-right: 20px;
+      color: transparent;
+      padding-left:45px;
+      }
+        
+       #sidemenu-main-navigation #search{
+        height: 2.7rem !important;
+        border-radius: 50px;
+        width: inherit;
+          padding-right: 20px;
+      color: darkslategray;
+      padding-left:45px;
+      }
+  
+      .search-icon-white{
+        color: darkslategray !important;
+      }
+  /* 
+      #search-icon{
+        color: red !important;
+      } */
+  
+      @media screen and (min-width: 640px) {
+        .zoom-hover{
+            transition: transform .2s; /* Animation */
+  
+        }
+        .zoom-hover:hover {
+            transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            z-index:99;
+        }
+      }
+  
+      .rounded-corner{
+        border-radius: 10px;
+      }
+    </style>
+  
+    <div class="navbar-fixedd">
+  
+  
+      <nav class="transparent" style="background-color: rgba(1,1,1,0.0) !important; height: 80px; box-shadow : none !important;">
+        <div class="nav-wrapper" style="padding-right: 5%; padding-left: 5%;">
+          <a href="https://greengiantfm.com" class="brand-logo" id="logo" style="height: 100px;">
+            <img src="https://greengiantfm.com/wp-content/themes/ggfm%20Test/assets/images/logo.png" class="responsive-img" style="height: 80px; width: auto;">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger valign-wrapper" style="height: 100%;"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down" style="line-height:40px; padding-top: 20px;">
+            <ul id="menu-main-navigation" class="right"><li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-5"><a href="https://greengiantfm.com">Home</a></li>
+                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-21"><a href="https://greengiantfm.com/about/" aria-current="page">About Us</a></li>
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://greengiantfm.com/radio-talents/">Radio Talents</a></li>
+                <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://greengiantfm.com/events/">Events</a></li>
+                <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://greengiantfm.com/blog/">Blogs</a></li>
+                <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://greengiantfm.com/contact-us/">Contact Us</a></li>
+                <li id="menu-item-924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-924"><a href="https://app.greengiantfm.com/" class="zoom-hover" style="background-color: rgb(87, 149, 41); border-radius: 50px;">Stream</a></li>
+                <!-- <li style="padding-left: 10px; padding-right: 10px;"> <form method="get" action="/"> <div class="input-field"><input id="search" type="search" name="s" value="" required=""><label id="search-icon" class="label-icon" for="search"><i class="material-icons" style="line-height:40px;">search</i></label></div></form></li> -->
+            </ul>          
+          </ul>
+  
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo" style="background-color: rgba(0,0,0,0.6) !important;">
+      <ul id="sidemenu-main-navigation" class="menu">
+        <!-- <li style="padding-left: 10px; padding-right: 10px;"> <form method="get" action="/"> <div class="input-field"><input id="search" type="search" name="s" value="" required=""><label id="search-icon" class="label-icon " for="search"><i class="material-icons" style="line-height:40px;">search</i></label></div></form></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-5"><a href="https://greengiantfm.com">Home</a></li> -->
+        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-21"><a href="https://greengiantfm.com/about/" aria-current="page">About Us</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://greengiantfm.com/radio-talents/">Radio Talents</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://greengiantfm.com/events/">Events</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://greengiantfm.com/blog/">Blogs</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://greengiantfm.com/contact-us/">Contact Us</a></li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-924"><a href="https://app.greengiantfm.com/">Stream</a></li>
+  </ul>  </ul>
+  
+    <script>
+      $(document).ready(function() {
+        $('.sidenav').sidenav();
+  
+        $('.nav-wrapper a:contains("Stream")').css({
+          'background-color': '#579529',
+          'border-radius': '50px'
+        });
+  
+        $('.nav-wrapper a:contains("Stream")').addClass('zoom-hover');
+        var search_html = "<li style = 'padding-left: 10px; padding-right: 10px;'> <form method='get' action = '/'> <div class='input-field'><input id='search' type='search' name = 's' value = '' required><label id = 'search-icon' class='label-icon ' for='search'><i class='material-icons' style ='line-height:40px;'>search</i></label></div></form></li>";
+  
+        $('#menu-main-navigation').append($(search_html));
+        $('#sidemenu-main-navigation').prepend($(search_html));
+  
+  
+      });
+    </script>
+  
+  
+  <div id="body-wrapper">
+
+    <!-- Insert New Code here -->
+    
+
+  </div>
+
+  <style>
+      body {
+          background-image: linear-gradient(0deg, rgba(36, 0, 10, 1) 2%, rgba(23, 45, 5, 0.8981967787114846) 100%), url("http://greengiantfm.com/wp-content/uploads/2019/10/GG_BG_C-10.jpg");
+          background-position: left top;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 100% !important;
+      }
+  
+      .vertically-centered-on-mobile-and-web {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  
+      .flex {
+              display: flex !important;
+              flex-wrap: wrap !important;
+          }
+      
+  </style>
+  
+      
+  
+  
+  <script>
+  function play_player() {
+                  document.getElementById('stream_player').play()
+                  document.cookie = "ggfm_player_flag=play; domain=.greengiantfm.com; path=/";
+  
+              }	
+              function pause_player(){
+                  document.getElementById('stream_player').pause()
+                  document.cookie = "ggfm_player_flag=pause; domain=greengiantfm.com; path=/";
+  
+                  }
+  $( document ).ready(function() {
+  
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+              
+              if(getCookie("ggfm_player_flag")=="play"){
+                  play_player();
+              }
+              else{
+                  pause_player();
+              }
+  
+          
+                  
+  
+  
+              });
+  
+  </script>
+  
+      <style>
+          #spotify_div {
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+              opacity: 0.4;
+  
+              transition: opacity .5s ease-out;
+              -moz-transition: opacity .5s ease-out;
+              -webkit-transition: opacity .5s ease-out;
+              -o-transition: opacity .5s ease-out;
+          }
+  
+          #spotify_div:hover {
+              opacity: 1.0;
+  
+          }
+      </style>
+      <div id="spotify_div">
+  
+                      <audio id="stream_player">
+                  <source src="http://pishyserve.duckdns.org:8000/stream.ogg">
+                  <source src="http://pishyserve.duckdns.org:8000/stream">
+              </audio>
+              <div class="" style="width: 100%; background-color: rgba(0,0,0,0.5); padding-top: 20px; padding-bottom: 20px; padding-right:20px;">
+                  <div class="right-align">
+                      <span class="white-text">
+                          <b>GREEN GIANT FM STREAM</b>
+                      </span>
+                      <a class="btn-floating" style="background-color: #579529 !important;
+              color: #08451A !important;
+              border-color: #579529 !important;
+              border-radius: 50px !important;" onclick="play_player()"><i class="material-icons">play_arrow</i></a>
+                      <a class="btn-floating" style="background-color: #579529 !important;
+              color: #08451A !important;
+              border-color: #579529 !important;
+              border-radius: 50px !important;" onclick="pause_player()"><i class="material-icons">pause</i></a>
+                  </div>
+                  <!-- <button onclick="document.getElementById('stream_player').muted=!document.getElementById('player').muted">Mute/ Unmute</button> -->
+              </div>
+              </div>
+  
+      <div style="background-color: rgba(0,0,0,0.4)">
+          <br>
+          <br>
+          <div class="container">
+              <div class="row">
+                  <div class="col s12 m4">
+                      <div class="row">
+                          <a href="https://greengiantfm.com" style="width: 100%; height: auto">
+                              <img src="https://greengiantfm.com/wp-content/themes/ggfm%20Test/assets/images/logo.png" class="responsive-img" style="height: 80px; width: auto;">
+                          </a>
+                      </div>
+                      <div>
+                          <h6 class="white-text">
+                              Accredited by the Student Media Office
+                          </h6>
+                          <img src="data:image/png;base64,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" class="responsive-img" style="height: 80px; width: auto;">
+  
+                      </div>
+                  </div>
+                  <div class="">
+  
+                  </div>
+                  <div class="col s12 m4">
+                      <h6 class="white-text">
+                          <b>EXPLORE</b>
+                      </h6>
+                      <ul class="white-text">
+                          <ul id="menu-footer" class="menu"><li id="menu-item-1047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1047"><a href="https://greengiantfm.com">Home</a></li>
+  <li id="menu-item-1048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048"><a href="https://greengiantfm.com/about/">About</a></li>
+  <li id="menu-item-1049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1049"><a href="https://greengiantfm.com/radio-talents/">Radio Talents</a></li>
+  <li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1050"><a href="https://greengiantfm.com/events/">Events</a></li>
+  <li id="menu-item-1051" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1051"><a href="https://greengiantfm.com/blog/">Blog</a></li>
+  <li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a href="https://greengiantfm.com/contact-us/">Contact Us</a></li>
+  <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053"><a href="https://greengiantfm.com/privacy-policy/">Privacy Policy</a></li>
+  <li id="menu-item-1054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1054"><a href="http://app.greengiantfm.com">Stream</a></li>
+  </ul>					</ul>
+                      <ul class="">
+                          <!-- <ul id="menu-footer-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1047"><a href="http://greengiantfm.com">Home</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1048"><a href="https://greengiantfm.com/about/">About</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1049"><a href="https://greengiantfm.com/radio-talents/">Radio Talents</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1050"><a href="https://greengiantfm.com/events/">Events</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1051"><a href="https://greengiantfm.com/blog/">Blog</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052"><a href="https://greengiantfm.com/contact-us/">Contact Us</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053"><a href="https://greengiantfm.com/privacy-policy/">Privacy Policy</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1054"><a href="http://app.greengiantfm.com">Stream</a></li>
+  </ul> -->
+                      </ul>
+                      <br>
+                      <h6 class="white-text">
+                          <b>SOCIAL</b>
+                      </h6>
+                      <div style="padding-top:10px;">
+                          <div style="display: inline-block; padding-right: 10px;">
+                              <a href="https://www.facebook.com/GreenGiantFM/">
+                                  <img src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-facebook-icon-logo-by-vexels.png" alt="facebook" class="responsive-img" style="height:40px; width: auto;">
+                              </a>
+                          </div>
+                          <div style="display: inline-block;">
+                              <a href="https://www.instagram.com/greengiant.fm/">
+                                  <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" alt="instagram" class="responsive-img" style="height:40px; width: auto;">
+                              </a>
+                          </div>
+                          <div style="display: inline-block; padding-left: 10px;">
+                              <a href="https://www.twitter.com/GreenGiantFM/">
+                                  <img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png" alt="twitter" class="responsive-img" style="height:40px; width: auto;">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+  
+              <div class="row">
+                  <div class="col s12 m6">
+                      <hr style="color: whitel">
+                      <span class="green-text text-darken-2">Green Giant FM </span> <span class="white-text text-darken-2">- Br. Bloemen Hall, De La Salle University,
+                          2401 Taft Ave, Malate,
+                          Manila, 1004 Metro Manila</span>
+                  </div>
+              </div>
+  
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+  
+      </div>
+      
+  
+      <div class="sidenav-overlay"></div><div class="drag-target"></div></body></html>

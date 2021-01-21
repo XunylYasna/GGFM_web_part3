@@ -1,0 +1,162 @@
+/* Hero */
+section.hitlist-main{
+    width: 100%;
+}
+section.hitlist-main > .hero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10vh 10vw;
+    justify-content: center;
+    width: 100%;
+}
+.hero-text{
+    width: 40vw !important;
+    min-width: 300px !important;
+    margin-bottom: 1rem;
+}
+.hero-text > h1{
+    color: var(--secondary);
+}
+.hero-text > p{
+    color: var(--light);
+    width: 35vw;
+    min-width: 300px !important;
+
+}
+/* Subhero */
+.hitlist-sub{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vw;
+    background-color: black;
+    width: 100%;
+}
+
+.hitlist-sub > h1{
+    color: var(--white);
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.hitlist-sub > h2{
+    color: var(--white);
+    font-weight: 400;
+    margin-top: -0.5rem;
+    font-size: 2rem;
+}
+
+/* Container */
+.hitlist-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vw;
+    
+}
+
+/* Song Card */
+.hitlist-song{
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 8px 0px, rgba(0, 0, 0, 0.5) 0px 6px 20px 0px;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    color: var(--light);
+    margin-top: 1.5rem;
+}
+
+.hitlist-song > .album-cover{
+}
+
+.hitlist-song > .info{
+    display: flex;
+    flex-direction: row;
+    color: var(--light);
+    margin-top: 2rem;
+}
+.hitlist-song > .part{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+.hitlist-song > .part > .place{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+.hitlist-song > .part > .place > p{
+    font-size: 2rem;
+}
+
+.hitlist-song > .info > .song{
+    margin-right: 2rem;
+    display: flex;
+    align-items: flex-start;
+    vertical-align: middle;
+    flex-direction: column;
+}
+.hitlist-song > .info > .song > h4{
+    margin-bottom: 0;
+}
+.hitlist-song > .info > .song > h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hitlist-song > .info > .song > h6{
+    margin-bottom: 0;
+}
+
+.hitlist-song > .info > .votes{
+    color: var(--light);
+}
+.hitlist-song > .info > .votes > h4{
+    margin-bottom: 0;
+}
+.hitlist-song > .info > .votes > h5{
+    margin-top: 0;
+}
+
+.hitlist-song > .part> .album-cover{
+    min-width: 150px;
+    min-height: 150px;
+    height: 30vw;
+    width: 30vw;
+    max-width: 200px;
+    max-height: 200px;
+
+    margin-right: 2rem;
+}
+.hitlist-song > .part > .album-cover > img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .hitlist-song > .info{
+        margin-top: 0rem;
+        
+    }
+    .hitlist-song > .info{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hitlist-song{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .hitlist-song > .part{
+        /* flex-direction: column; */
+        margin-right: 0;
+    }
+    .hitlist-song > .info{
+        flex-direction: column;
+        
+    }
+}

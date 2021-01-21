@@ -1,0 +1,3 @@
+GGFM's Fresh 20 collates the Top 20 Songs every week based on the public's choice along with the Hot Rotation and Indie Three. Updated every Tuesdays.
+
+<iframe src="https://open.spotify.com/embed/playlist/2ov85DmRexbvr1KXR8IsSf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
